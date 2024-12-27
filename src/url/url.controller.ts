@@ -1,8 +1,7 @@
 import { Controller, Post, Get, Param, Query, Body, Put, Redirect, Res } from '@nestjs/common';
 import { UrlService } from './url.service';
 import { Response } from 'express';
-import {CreateUrlDto} from '../util'
-import { NotFoundException } from '@nestjs/common';
+import {CreateUrlDto} from '../util';
 
 @Controller('urls')
 export class UrlController {
